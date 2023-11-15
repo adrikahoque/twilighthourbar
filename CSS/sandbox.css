@@ -1,0 +1,86 @@
+/* Text Styling */
+
+h1 {
+    font-family: sofachrome, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    color: #F2D22E;
+}
+
+h2 {
+    font-family: "future-pt", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #ED1C24;
+
+}
+
+h3 {
+    font-family: "future-pt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #EBF2CE;
+}
+
+p {
+    font-family: "futura-pt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #EBF2CE;
+}
+
+
+
+/* Body Styling */
+
+body {
+    background-color: #0A3640;
+    margin: 50px;
+
+}
+
+/* Styling nav links */
+
+nav a {
+    font-family: "future-pt", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #EBF2CE;
+    float: right;
+    margin-right: 40px;
+}
+
+.nav-bar {
+    background-color: #ED1C24;
+    width: 100%;
+}
+
+.company-logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    margin-left: 20px;
+}
+
+/* Welcome Section */
+
+#welcome-section {
+    background-image: url("../Assets/TwilightHour_WelcomePhoto.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+}
+
+/* About Us Section */
+
+#about-section {
+
+
+}
+
