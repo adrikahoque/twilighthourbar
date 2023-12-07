@@ -9,6 +9,8 @@
 </head>
 <body>
 
+<!--NAV BAR SECTION-->    
+
 <header>
     <img src="Assets/InterstellarHotel_Logo.svg" alt="Logo" id="logo">
     <nav>
@@ -18,55 +20,71 @@
     </nav>
 </header>
 
+<!--WELCOME BANNER SECTION-->  
+
 <section class="welcome-section">
     <section class="overlay"></section>
     <section class="welcome-text">
-        <h1>The Twilight Hour</h1>
-        <h3>Bar & Lounge</h3>
-        <p>WELCOME</p>
+        <h1 class="welcome-text">The Twilight Hour</h1>
+        <h3 class="welcome-text">BAR & LOUNGE</h3>
     </section>
  </section>
 
+ <!--ABOUT US SECTION STARTS-->  
+
  <article id="about-section" class="about-section">
     <article class="about-text">
-    <h3>About Us</h3>
-    <p>Step into a world of celestial elegance and cosmic charm as we invite you
-        to experience the ultimate earthly comfort right here in space. Nestled within
-        the magnificent Interstellar Hotel sits your gateway to the stars.
+    <h3 class="about-text">About Us</h3>
+    <p class="about-text">Step into a world of celestial elegance and cosmic charm as we invite you
+        <br/>to experience the ultimate earthly comfort right here in space. Nestled within
+        <br/>the magnificent Interstellar Hotel sits your gateway to the stars.
     </p>
     </article>
  </article>
 
- <section id="card-container" class="card-container">
-    <section class="card">
-        <img src="Assets/wine_icon.svg" alt="Wine">
-        <section class="card-overlay">
-            <h2>Wine</h2>
-            <p>Explore our selection of fine wines.</p>
-        </section>
-    </section>
+<!--ROUNDED CONTAINERS SECTION--> 
 
-    <section class="card">
-        <img src="Assets/beer_icon.svg" alt="Beer">
-        <section class="card-overlay">
-            <h2>Beer</h2>
-            <p>Discover our collection of craft beers.</p>
-        </section>
-    </section>
+<section class="row" id="card-container">
+    <article class="column">
+        <section class="rounded-container-wine"></section>
+        <h3 class="rounded-container-h3"><a href="#wine-selection">
+            Wine</a>
+        </h3>
+        <p>
+            Explore our selection
+            <br/>of fine wines
+        </p>
+    </article>
 
-    <section class="card">
-        <img src="Assets/cocktail_icon.svg" alt="Cocktails">
-        <section class="card-overlay">
-            <h2>Cocktails</h2>
-            <p>Indulge in our handcrafted cocktails.</p>
-        </section>
-    </section>
+    <article class="column">
+        <section class="rounded-container-beer"></section>
+        <h3 class="rounded-container-h3"><a href="#beer-selection">
+            Beer</a>
+        </h3>
+        <p>
+            Discover our collection
+            <br/>of craft beers
+        </p>
+    </article>
+
+    <article class="column">
+        <section class="rounded-container-cocktail"></section>
+        <h3 class="rounded-container-h3"><a href="#cocktail-selection">
+            Cocktails</a>
+        </h3>
+        <p>
+            Indulge in our
+            <br/>handcrafted cocktails
+        </p>
+    </article>
 </section>
 
 
+<!--WINE SECTION-->  
+
 <article class="wine-section">
     <section class="wine-selection">
-        <img src="Assets/wine_photo.jpg" alt="wine glass" class="wine-photo" id="wine-selection">
+        <img src="Assets/wine_icon.svg" alt="wine glass" class="icon" id="wine-selection">
         <div class="wine-details">
             <h2>Wine $11</h2>
             <h3>Celestial Cabernet</h3>
@@ -79,9 +97,11 @@
     </section>
 </article>
 
+<!--BEER SECTION-->  
+
 <article class="beer-section">
     <section class="beer-selection">
-        <img src="Assets/beer_photo.jpg" alt="beer mugs" class="beer-photo" id="beer-selection">
+        <img src="Assets/beer_icon.svg" alt="beer mugs" class="icon" id="beer-selection">
         <div class="beer-details">
             <h2>Beer $7</h2>
             <h3>Pale Ale-in</h3>
@@ -94,9 +114,11 @@
     </section>
 </article>
 
+<!--COCKTAIL SECTION-->  
+
 <article class="cocktail-section">
     <section class="cocktail-selection">
-        <img src="Assets/cocktail_photo.jpg" alt="cocktail glasses" class="cocktail-photo" id="cocktail-selection">
+        <img src="Assets/cocktail_icon.svg" alt="cocktail glasses" class="icon" id="cocktail-selection">
         <div class="cocktail-details">
             <h2>Cocktails $15</h2>
             <h3>Astronaut's Delight</h3>
@@ -110,6 +132,9 @@
 </article>
 
 
+
+<!--FOOTER SECTION-->  
+
 <footer>
     <section id="contact-section" class="footer-container">
         <section class="logo">
@@ -118,19 +143,20 @@
 
         <section class="address">
             <h4>Address</h4>
-            <p>123 Solar Eclipse Way</p>
-            <p>In Orbit, Milky Way Galaxy 51.603</p>
+            <p>123 Solar Eclipse Way
+            <br/>In Orbit, Milky Way Galaxy 51.603</p>
         </section>
 
         <section class="hours">
             <h4>Hours</h4>
-            <p>Thursday - Sunday: 5 PM - 3 AM</p>
+            <p>Thursday - Sunday:
+            </br>5 PM - 3 AM</p>
         </section>
 
         <section class="contact">
             <h4>Contact</h4>
-            <p>Email: concierge@interstellarhotel.com</p>
-            <p>Phone: (321) 720-1969</p>
+            <p>Email: concierge@interstellarhotel.com
+            <br/>Phone: (321) 720-1969</p>
         </section>
     </section>
 </footer>
