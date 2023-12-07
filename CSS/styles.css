@@ -85,7 +85,7 @@ nav a {
 .welcome-section {
     position: relative;
     height: 40vh;
-    background: url(/Assets/TwilightHourBar_01.jpg) center/cover no-repeat;
+    background: url(../Assets/TwilightHourBar_01.jpg) center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -221,7 +221,7 @@ h2, p {
 
 .rounded-container-wine {
     border-radius: 25px;
-    background: url(/Assets/wine_photo.jpg);
+    background: url(../Assets/wine_photo.jpg);
     background-position: left top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -234,7 +234,7 @@ h2, p {
 
 .rounded-container-beer {
     border-radius: 25px;
-    background: url(/Assets/beer_photo.jpg);
+    background: url(../Assets/beer_photo.jpg);
     background-position: left top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -247,7 +247,7 @@ h2, p {
 
 .rounded-container-cocktail {
     border-radius: 25px;
-    background: url(/Assets/cocktail_photo.jpg);
+    background: url(../Assets/cocktail_photo.jpg);
     background-position: left top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -258,8 +258,16 @@ h2, p {
     margin-bottom: 30px;
 }
 
+.card-photos {
+    width: 40%;
+    border-radius: 25px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.5);
+    margin: 60px;
+}
+
 .rounded-container-h3 {
     margin-bottom: 10px;
+    text-align: center;
 }
 
 h3 a {
